@@ -82,7 +82,7 @@ Since the file does not exist, `ls` has nothing to do and throws and error.
 The `cat` command is used to display the contents of a file. 
 
 * Running `cat` with no arguments does something interesting; it takes input through `stdin`, and once some input is given by the user, it prints out the input. This continues until the user exists the loop. <br>
-For example, when our current directory is `/home`, running `cat` with no arguments allows us to input strings:
+For example, when our current directory is `/home`, running `cat` with no arguments allows us to input strings: <br>
 ```
 [user@sahara ~]$ cat
 Hello
