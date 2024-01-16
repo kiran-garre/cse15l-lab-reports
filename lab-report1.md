@@ -87,6 +87,8 @@ For example, when our current directory is `/home`, running `cat` with no argume
 [user@sahara ~]$ cat
 cat displays the contents of a file
 cat displays the contents of a file
+
+
 This loop continues until the user exists
 This loop continues until the user exists
 ^C
