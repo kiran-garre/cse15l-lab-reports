@@ -1,3 +1,5 @@
+# Lab Report 1
+
 ## Changing Directories
 `cd` stands for "change directory" and is used for navigating through the different folders in your workspace.
 * Using the `cd` command with no arguments will bring you to the root directory.
