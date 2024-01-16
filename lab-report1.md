@@ -76,7 +76,7 @@ Once again, providing a non-existent file name throws an error:
 [user@sahara ~]$ ls fake-file.txt
 ls: cannot access 'fake-file.txt': No such file or directory
 ```
-Since the file does not exist, `ls` has nothing to do and throws and error.
+Since the file does not exist, `ls` has nothing to do and throws an error.
 
 ## Displaying files
 The `cat` command is used to display the contents of a file. 
