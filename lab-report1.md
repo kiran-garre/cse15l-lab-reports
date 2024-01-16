@@ -87,14 +87,12 @@ For example, when our current directory is `/home`, running `cat` with no argume
 [user@sahara ~]$ cat
 cat displays the contents of a file
 cat displays the contents of a file
-
-
 This loop continues until the user exists
 This loop continues until the user exists
 ^C
 [user@sahara ~]$
 ```
-Any input given is immediately printed out again (even newlines; the large gap is simply a newline given by the user and a newline printed out by `cat`). This is not an error and is instead a behavior of terminal itself; running certain commands with no arguments will begin a loop that reads from `stdin`.
+Any input given is immediately printed out again (even newlines). This is not an error and is instead a behavior of terminal itself; running certain commands with no arguments will begin a loop that reads from `stdin`.
 
 * Running `cat` with a directory as an argument throws an error. <br>
 When our working directory is `/home` and it contains a folder called `lecture1`, running `cat lecture1` prints:
