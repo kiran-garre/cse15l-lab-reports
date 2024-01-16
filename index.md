@@ -1,3 +1,6 @@
+Here's a running list of links to each lab report:
+* [Lab Report 1](https://kiran-garre.github.io/cse15l-lab-reports/lab-report1.html)
+
 # This is heading 1
 
 ## This is heading 2
