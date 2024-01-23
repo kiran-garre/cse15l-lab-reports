@@ -2,14 +2,14 @@
 
 ## Changing Directories
 `cd` stands for "change directory" and is used for navigating through the different folders in your workspace.
-* Using the `cd` command with no arguments will bring you to the root directory.
-For exmaple, when our working directory is /home/lecture1 and our root directory is /home, running `cd` with no arguments gives the following output:
+* Using the `cd` command with no arguments will bring you to the `/home` directory.
+For exmaple, when our working directory is `/home/lecture1`, running `cd` with no arguments gives the following output:
 ```
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ pwd
 /home
 ```
-With the `pwd` command, we can see that we are now in the `/home` directory. When you use `cd` with no arguments (meaning without specifying a directory), it will bring you straight back to the root directory. This is not an error.
+With the `pwd` command, we can see that we are now in the `/home` directory. When you use `cd` with no arguments (meaning without specifying a directory), it will bring you straight back to the `/home` directory. This is not an error.
 
 
 * Using the `cd` command with a directory as an argument will take you to that directory (if it exists). <br>
