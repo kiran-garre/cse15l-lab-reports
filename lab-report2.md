@@ -13,8 +13,15 @@
 How does the `handleRequest()` method split the query into its relevant parts? We know that the message and user in the query will be separated by a `'&'`, so the method splits at that character and assigns it to a `String` array. Then, both the message and the name will have an equals sign (`'='`) that separates the relevant part. By splitting at `'='` for both and assigning the corresponding parts to a `name` and `message` variable, we have all the parts we need to format the `String` to update `str` and for the function to return. 
 
 # Part 2
+Paths to private and upblic keys using `ls`:
+![Image](/lab-report2-images/key_paths.png)
+
+Absolute path to private key: `/Users/separate/.ssh/id_rsa`  
+Absolute path to public key: `/Users/separate/.ssh/id_rsa.pub`
+
+Logging in without password: 
+![Image](/lab-report2-images/login-without-password.png)
 
 
-Path to private key: /Users/separate/.ssh/id_rsa  
-Path to public key: /Users/separate/.ssh/id_rsa.pub
+
 
