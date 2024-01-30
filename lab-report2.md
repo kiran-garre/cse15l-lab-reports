@@ -62,6 +62,9 @@ Absolute path to public key: `/home/linux/ieng6/oce/59/kgarre/authorized_keys`
 Logging in without password: 
 ![Image](/lab-report2-images/login-without-password.png)
 
+# Part 3
+One thing I learned in lab during weeks 2 and 3 was that you can easily login to another computer using `ssh`. I never knew that it was so simple to remotely login (since it only takes one command; I thought it would be a much more involved process, something you might see hackers or cybersecurity experts doing). I am very interested to see what other functionalities `ssh` can offer and how this might be used in a professional setting in the future.
+
 
 
 
