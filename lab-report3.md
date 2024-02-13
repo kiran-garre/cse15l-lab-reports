@@ -141,7 +141,7 @@ biomed/1472-6807-2-2.txt:37:        10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
 biomed/1472-6807-2-2.txt:61:        B *3501, B *5301, H-2K B, H-2D B, H-2D D, H-2L D, DR1, DR2,
 biomed/1472-6807-2-2.txt:78:        improvement in the MHC-peptide binding prediction. [ 21 22
 ```
-Here, we search for lines that do not contain a match to the string "a" using the `-v` option. Including the `-n` option still returns the line numbers of the
+Here, we search for lines that do not contain a match to the string "a" using the `-v` option. Including the `-n` option still displays the line numbers of the
 lines returned by grep, as expected. 
 
 ### `-w` option
