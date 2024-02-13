@@ -1,3 +1,25 @@
+## Part 1
+In this section, I will be focusing on test the `reverseInPlace()` method.
+Failure-inducing input (JUnit test):
+```
+@Test 
+public void testReverseInPlaceFail() {
+  int[] input1 = {1, 2, 3, 4};
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{4, 3, 2, 1}, input1);
+}
+```
+Successful input (JUnit test):
+```
+@Test
+public void testReverseInPlaceSuccess() {
+    int[] input1 = {3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3}, input1);
+}
+```
+
+
 ## Part 2
 
 In this section, I will be exploring the `grep` command. Since we've already used the `-r` option (which searches the given directory recursively) and the `-l` option (which displays only the filenames),
