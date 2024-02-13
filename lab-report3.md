@@ -1,5 +1,5 @@
 ## Part 1
-In this section, I will be focusing on test the `reverseInPlace()` method.
+In this section, I will be focusing on test the `reverseInPlace()` method.  
 Failure-inducing input (JUnit test):
 ```
 @Test 
@@ -21,7 +21,7 @@ public void testReverseInPlaceSuccess() {
 Screenshot of both tests running:
 ![Image](/lab-report3-images/junit-tests-lab-report3.png)
 
-Before and after:
+Before and after:  
 Before:
 ```
 static void reverseInPlace(int[] arr) {
@@ -52,7 +52,7 @@ I will use those without further explanation. I will also use the `head` and `ta
 
 
 ### `-m` option
-Source: `man` page for `grep`
+Source: `man` page for `grep`  
 The `-m` option takes a number as an argument and will stop searching after that many matches.
 ```
 separate technical % grep -r -m 5 "the" plos 
@@ -85,7 +85,7 @@ first 3 matches as without the `-m` option.
 
 
 ### `-v` option
-Source: https://docs.rackspace.com/docs/use-the-linux-grep-command
+Source: https://docs.rackspace.com/docs/use-the-linux-grep-command  
 The `-v` option searches for lines without the argument string. 
 ```
 separate technical % grep -m 8 -rv "a" biomed
@@ -116,7 +116,7 @@ empty lines that also do not contain the string "the".
 
 
 ### `-n` option
-Source: `man` page for `grep`
+Source: `man` page for `grep`  
 The `-n` option prints the line number corresponding to each match that grep finds.
 ```
 separate technical % grep -r -n "dna" biomed | head -n 5 
@@ -145,7 +145,7 @@ Here, we search for lines that do not contain a match to the string "a" using th
 lines returned by grep, as expected. 
 
 ### `-w` option
-Source: https://docs.rackspace.com/docs/use-the-linux-grep-command
+Source: https://docs.rackspace.com/docs/use-the-linux-grep-command  
 The `-w` option only matches the argument string as a word, not as pard of another word. For example, passing "cat" as an argument to `grep` with the `-w` function would
 only match the word "cat" and not the word "catastrophe".
 ```
