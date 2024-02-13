@@ -41,7 +41,9 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 The bug in the original code is that the `for` loop iterates through the whole array. The values in the first half of the array are replaced with values from the second half of the array. However, 
-the function continues iteratiing through the array and copies the new beginning values (which have already been replaced), which causes the array to be reversed improperly.
+the function continues iteratiing through the array and copies the new beginning values (which have already been replaced), which causes the array to be reversed improperly. The fix iterates
+through half the array, switching each value with its corresponding value starting from the end of the array. For example, the first element is switched with the last element, and the 
+second element is switched with the second-to-last element, and so on.
 
 ## Part 2
 
