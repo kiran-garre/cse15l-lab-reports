@@ -13,10 +13,20 @@ Pressing `Ctrl-R` allows me to search through my command history. Simply typing 
 I then pressed `<enter>` to run the tests in `test.sh`.
 
 ## Step 7:
-Keys pressed: `<ctrl-r> + vim + 43j + e + r2`
+Keys pressed: `<ctrl-r> + vim + gg + 43j + e + r2 + :x`
 Pressing `Ctrl-R` allows me to search through my command history. Simply typing `vim` autocompletes to `vim ListExamples.java` since that was the only `vim` command I used. 
 I then pressed `<enter>` to begin editing `ListExamples.java` with `vim`.
-Pressing `43j`
+Pressing `gg` takes me to the top of the file. I do this because sometimes the cursor starts in an unexpected place, so I just go to the top of file. Pressing `43j` performs the 
+motion `j` (which moves the cursor a line down). The line to be changed is on line 44, so if the cursor starts on line 1, jumping down 43 times gets to the correct line.
+Pressing `e` moves to the end of the first word of the line, putting me at the "1" of "index1".
+Pressing `r2` replaces the current character with the character "2", so the word became "index2".
+Pressing `:x` saves and exits the file.
 
 ## Step 8
+Keys pressed: `<up> + <up> + <enter>`
+The command `bash test.sh` is two commands up in my command history (from step 6), so pressing the up arrow twice lets me quickly access the command. Pressing `<enter>` runs the command. 
+
+
+
+
 
