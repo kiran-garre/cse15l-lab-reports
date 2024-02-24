@@ -5,7 +5,8 @@ The command `ssh kgarre@ieng6.ucsd.edu` was one up in my command history, so I p
 ## Step 5:
 Keys pressed: `<ctrl-r> + git + <enter> + cd lab7`
 Pressing `Ctrl-R` allows me to search through my command history. Simply typing `git` autocompletes to `git clone git@github.com:kiran-garre/lab7.git` since that was the only `git` command I used. 
-I then pressed `<enter>` to run the command. I then used the command `cd lab7` to change to the `/lab7` directory.
+I then pressed `<enter>` to run the command. I then used the command `cd lab7` to change to the `/lab7` directory. (I could `cd` by searching through my command history, but I found it to be faster to 
+just type the command myself.)
 
 ## Step 6:
 Keys pressed: `<ctrl-r> + bas`
@@ -22,9 +23,17 @@ Pressing `e` moves to the end of the first word of the line, putting me at the "
 Pressing `r2` replaces the current character with the character "2", so the word became "index2".
 Pressing `:x` saves and exits the file.
 
-## Step 8
+## Step 8:
 Keys pressed: `<up> + <up> + <enter>`
 The command `bash test.sh` is two commands up in my command history (from step 6), so pressing the up arrow twice lets me quickly access the command. Pressing `<enter>` runs the command. 
+
+## Step 9:
+Keys pressed: `<ctrl-r> + git a + <ctrl-r> + git co + <ctrl-r> + git push`
+Pressing `Ctrl-R` allows me to search through my command history. Simply typing `git a` autocompletes to `git add .` since that is the only command I used that starts with `"git a"`.
+I then press `Ctrl-R` again to search through my command history. Typing `git co` autocompletes to `git commit -m "n"`. Simply typing `git c` would not be enough because it would autocomplete to the `git clone` from before.
+I then type `git push` to push the changes to Github. (I found that typing out the command was faster than searching through my history).
+
+
 
 
 
