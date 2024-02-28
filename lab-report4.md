@@ -39,7 +39,7 @@ The command `bash test.sh` is two commands up in my command history (from step 6
 
 ## Step 9:
 ![Image](/lab-report4-images/gitting.png)
-Keys pressed: `<ctrl-r> + git a <enter> + <ctrl-r> + git co + <enter> + <ctrl-r> + git push + <enter>`  
+Keys pressed: `<ctrl-r> + git a + <enter> + <ctrl-r> + git co + <enter> + <ctrl-r> + git push + <enter>`  
 Pressing `Ctrl-R` allows me to search through my command history. Simply typing `git a` autocompletes to `git add .` since that is the only command I used that starts with `"git a"`.
 I then press `Ctrl-R` again to search through my command history. Typing `git co` autocompletes to `git commit -m "n"` (since I used this command in an earlier run). Simply typing `git c` would not be enough because it would autocomplete to the `git clone` from before.
 I then type `git push` to push the changes to Github. (I found that typing out the command was faster than searching through my history).
