@@ -121,6 +121,14 @@ javac NumberServer.java Server.java
 java NumberServer 4000
 ```
 
+Commands to produce the bug:
+```
+$ bash run-number-server.sh
+```
+which then runs the commands `javac NumberServer.java Server.java` and `java NumberServer 4000` found in `run-number-server.sh`
+
+Edit made: I changed the `contains()` method to `equals()` in my `if` statement on line 10 of `NumberServer.java` so that the `/add` query would go to the `else` block on line 15 rather than skipping it.
+
 
 
 
