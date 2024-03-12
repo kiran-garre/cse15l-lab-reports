@@ -1,7 +1,9 @@
 ## Original post:
-Hello! I am trying to implement a method a case in my `NumbeServer.java` file where a user can increment `num` by a variable amount (rather than just incrementing by 1).
+Hello! I am trying to implement a method a case in my `NumbeServer.java` file where a user can increment `num` by a variable amount (rather than just incrementing by 1).  
 Here is my code:
+![Image](/lab-report5-images/numberserver-screenshot.png)
 Here is a symptom of the `num` variable not incrementing:
+![Image](/lab-report5-images/not-incrementing.png)
 Here, I am trying to add 10 to `num` and display it, but `num` is not increasing. I think this is an issue with my query splitting, but I'm not sure. 
 It seems like any query with the path `/add` isn't working. 
 
@@ -11,9 +13,11 @@ which don't. It may also be helpful to read the documentation for the `String` `
 
 ## Student response:
 Hello! I traced through my code and figured out the issue: using `contains()` in my `if` statement causes that block to run (since the `/add` query contains the `"/"` character), and then it would skip the rest of the `else if` 
-and `else` blocks. Instead, using the `equals()` method gave me the correct output. 
+and `else` blocks. Instead, using the `equals()` method gave me the correct output.    
 New code: 
+![Image](/lab-report5-images/fixed-numberserver.png)
 New output:
+![Image](/lab-report5-images/properly-incrementing.png)
 
 
 #### File structure:
