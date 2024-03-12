@@ -10,13 +10,14 @@ Hey there! It looks like there's an issue with your `if` statements where you ch
 which don't. It may also be helpful to read the documentation for the `String` `contains()` method you use in your `if` statements.
 
 ## Student response:
-Hello! I traced through my code and figured out the issue: using `contains()` in my `if` statement would cause that block to run (since the `/add` query contains the `"/"` character), and then it would skip the rest of the `else if` 
+Hello! I traced through my code and figured out the issue: using `contains()` in my `if` statement causes that block to run (since the `/add` query contains the `"/"` character), and then it would skip the rest of the `else if` 
 and `else` blocks. Instead, using the `equals()` method gave me the correct output. 
 New code: 
 New output:
 
 
 #### File structure:
+```
 ├── server-folder
 │   ├── NumberServer.java
 │   ├── Server.java
@@ -24,6 +25,7 @@ New output:
 │   ├── URLHandler.class
 │   ├── ServerHttpHandler.class
 │   ├── Handler.class
+```
 
 #### Contents of `NumberServer.java` __before__ fixing the bug:
 ```
@@ -129,6 +131,11 @@ which then runs the commands `javac NumberServer.java Server.java` and `java Num
 
 #### Edit made: 
 I changed the `contains()` method to `equals()` in my `if` statement on line 10 of `NumberServer.java` so that the `/add` query would go to the `else` block on line 15 rather than skipping it.
+
+
+## Part 2:
+I really enjoyed learning about JDB and how it can be used to trace through a program and find a bug or issue. Before, I would use print statements to debug my code, and while this is still
+a useful method for debugging, JDB makes this process easier. Also, being able to stop at certain lines, check the values of variables, and step into, out of, and over function calls is very useful.
 
 
 
